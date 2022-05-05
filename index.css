@@ -1,0 +1,1006 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500&display=swap');
+
+html, body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container-maior{               /*pai de todos */
+    position: absolute;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+}
+
+img{                            /*background*/
+    width: 100%;   
+    height: 840px;           
+}
+
+/*primeiro conteudo, logo e titulo do site*/
+.container-logo{            
+    position: absolute;
+    display: flex;
+    width: 40%;
+    height: 87px;
+    left: 510px;
+    top: 80px;
+}
+
+.imagem-canos{
+    position: relative;
+    width: 20%;
+    height: 87px;
+    left: 0px;
+    top: 19px;
+}
+
+.texto-logo{
+    position: relative;
+    width: 80%;
+    height: 81px;
+    left: 0px;
+    top: 3px;
+}
+
+.letras-maiores{
+    position: relative;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 50px;
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.letras-menores{
+    position: relative;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 33.44px;
+
+    text-transform: uppercase;
+    letter-spacing: 22px;
+
+    color: #FFFFFF;
+}
+
+/*titulo e texto principal da página*/
+.container-do-titulo-principal{         /*titulo*/
+    position: absolute;
+    width: 40%;
+    height: 57px;
+    left: 470px;
+    top: 230px;
+}
+
+.titulo-principal-primeira-tela{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 30px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.container-do-paragrafo-principal{
+    position: absolute;
+    width: 35%;
+    height: 88px;
+    left: 470px;
+    top: 340px;
+}
+
+.paragrafo-principa-primeira-tela{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+/*container com os 3 servicos*/
+
+.container-dos-servicos{
+    position: absolute;
+    width: 50%;
+    height: 136px;
+    left: 470px;
+    top: 520px;
+}
+
+.servico1{
+    position: relative;
+    width: 72.12px;
+    height: 72.12px;
+    left: 0px;
+    top: 0px;
+
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 20px;
+    transform: rotate(-45deg);
+}
+
+.servico2{
+    position: absolute;
+    width: 72.12px;
+    height: 72.12px;
+    left: 232px;
+    top: 0px;
+
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 20px;
+    transform: rotate(-45deg);
+}
+
+.servico3{
+    position: absolute;
+    width: 72.12px;
+    height: 72.12px;
+    left: 462px;
+    top: 0px;
+
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 20px;
+    transform: rotate(-45deg);
+}
+
+.alicate{
+    position: absolute;
+    top: 12px;
+    left:12px;
+    width: 39.12px;
+    height: 39.77px;
+    transform: rotate(45deg);
+}
+
+.services-one1{
+    position: absolute;
+    width: 91px;
+    height: 22px;
+    left: -10px;
+    top: 90px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.services-one2{
+    position: absolute;
+    width: 91px;
+    height: 22px;
+    left: 220px;
+    top: 90px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.services-one3{
+    position: absolute;
+    width: 91px;
+    height: 22px;
+    left: 452px;
+    top: 90px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+/*botao - help me*/
+
+.botao-me-ajude{
+    position: absolute;
+    width: 10%;
+    height: 62px;
+    left: 674px;
+    top: 720px;
+
+    background: #50B2EA;
+    box-shadow: 0px 20px 40px rgba(129, 209, 255, 0.2);
+    border-radius: 10px;
+}
+
+.texto-me-ajude{
+    position: absolute;
+    width: 100%;
+    height: 22px;
+    left: 0px;
+    top: 20px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+/*segundo container grande - segunda tela*/
+
+.segunda-tela{
+    height: 763px;
+    width: 100%;
+    background-image: linear-gradient(to left, #50B2EA 50%,#F2F2F2 50%);
+}
+
+.container-do-moço{
+    position: absolute;
+    width: 75%;
+    height: 500px;
+    left: 162px;
+    top: 970px;
+
+    background: #50B2EA;
+    border: 4px solid #F2F2F2;
+    border-radius: 40px;
+}
+
+.moço-dos-canos{
+    position: absolute;
+    width: 48%;
+    height: 100%;
+    left: 595px;
+    top: 0px;
+}
+
+/*container de textos da segunda tela*/
+.container-de-textos-segunda-tela{
+    position: absolute;
+    width: 44%;
+    height: 390px;
+    left: 45px;
+    top: 50px;
+}
+
+.titulo-container-de-textos-segunda-tela{
+    position: absolute;
+    width: 100%;
+    height: 72px;
+    left: 0px;
+    top: -25px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 72px;
+
+    color: #FFFFFF;
+}
+
+.paragrafo-container-de-textos-segunda-tela{
+    position: absolute;
+    width: 100%;
+    height: 110px;
+    left: 0px;
+    top: 80px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+
+    color: #19435A;
+}
+
+.paragrafo-branco-1{
+    position: absolute;
+    width: 80%;
+    height: 22px;
+    left: 40px;
+    top: 250px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+}
+
+.paragrafo-branco-2{
+    position: absolute;
+    width: 80%;
+    height: 22px;
+    left: 40px;
+    top: 300px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+}
+
+.paragrafo-branco-3{
+    position: absolute;
+    width: 80%;
+    height: 22px;
+    left: 40px;
+    top: 350px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+}
+
+.check1{
+    width: 4%;
+    height: 5%;
+    position: absolute;
+    top: 265px;
+    left: 0px;
+}
+
+.check2{
+    width: 4%;
+    height: 5%;
+    position: absolute;
+    top: 316px;
+    left: 0px;
+}
+
+.check3{
+    width: 4%;
+    height: 5%;
+    position: absolute;
+    top: 365px;
+    left: 0px;
+}
+
+/*segundo botao me ajude - segunda tela*/
+
+.segundo-botao-me-ajude{
+    position: absolute;
+    width: 160px;
+    height: 54px;
+    left: 671px;
+    top: 1510px;
+
+    background: #50B2EA;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 20px 20px rgba(129, 209, 255, 0.2);
+    border-radius: 10px;
+}
+
+.texto-me-ajude2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  
+    top: 15px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    text-decoration: none;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+/*terceira tela*/
+
+.terceira-tela{
+    position: absolute;
+    width: 100%;
+    height: 674px;
+    left: 0px;
+    
+}
+
+.faixa-de-cima{
+    position: absolute;
+    height: 390px;
+    width: 100%;
+    left: 0px;
+  
+}
+
+.faixa-de-baixo{
+    background: #F2F2F2;
+    height: 284px;
+    width: 100%;
+    left: 0px; 
+    align-items: center;
+}
+
+.imagem-encanacao{
+    height: 100%;
+    width: 100%;
+}
+
+.titulo-terceira-tela{
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    left: 605px;
+    top: 40px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+/*quadrados de alicates*/
+
+.container-de-quadrados-tela3{
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    left: 320px;
+    top: 200px;
+}
+
+.quadrado-alicate1{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    left: 0px;
+    top: 0px;
+
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 20px;
+    transform: rotate(-45deg);
+}
+
+.quadrado-alicate2{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    left: 250px;
+    top: 0px;
+
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 20px;
+    transform: rotate(-45deg);
+}
+
+.quadrado-alicate3{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    left: 498px;
+    top: 0px;
+
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 20px;
+    transform: rotate(-45deg);
+}
+
+.quadrado-alicate4{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    left: 750px;
+    top: 0px;
+
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 20px;
+    transform: rotate(-45deg);
+}
+
+.alicate2{
+    position: absolute;
+    top: 35px;
+    left: 30px;
+    width: 56px;
+    height: 56px;
+    transform: rotate(45deg);
+}
+
+/*titulos e paragrafos da terceira tela*/
+
+.container-de-textos-terceira-tela{
+    position: absolute;
+    width: 61%;
+    height: 284px;
+    top: 390px;
+    left: 300px;
+}
+
+.titulo-terceira-tela2{
+    position: absolute;
+    width: 30%;
+    height: 22px;
+    left: 22px;
+    top: 22px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #50B2EA;
+}
+
+.titulo-terceira-tela3{
+    position: absolute;
+    width: 30%;
+    height: 22px;
+    left: 270px;
+    top: 22px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #50B2EA;
+}
+
+.titulo-terceira-tela4{
+    position: absolute;
+    width: 30%;
+    height: 22px;
+    left: 518px;
+    top: 22px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #50B2EA;
+}
+
+.titulo-terceira-tela5{
+    position: absolute;
+    width: 30%;
+    height: 22px;
+    left: 765px;
+    top: 22px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #50B2EA;
+}
+
+.paragrafo-terceira-tela1{
+    position: absolute;
+    width: 20%;
+    height: 66px;
+    left: -5px;
+    top: 60px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+
+    text-align: center;
+
+    color: #19435A;
+}
+
+.paragrafo-terceira-tela2{
+    position: absolute;
+    width: 20%;
+    height: 66px;
+    left: 243px;
+    top: 60px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+
+    text-align: center;
+
+    color: #19435A;
+}
+
+.paragrafo-terceira-tela3{
+    position: absolute;
+    width: 20%;
+    height: 66px;
+    left: 485px;
+    top: 60px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+
+    text-align: center;
+
+    color: #19435A;
+}
+
+.paragrafo-terceira-tela4{
+    position: absolute;
+    width: 20%;
+    height: 66px;
+    left: 732px;
+    top: 60px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+
+    text-align: center;
+
+    color: #19435A;
+}
+
+/*botao me ajude*/
+
+.botao-me-ajude3{
+    position: absolute;
+    width: 11%;
+    height: 55px;
+    left: 678px;
+    top: 580px;
+
+    background: #50B2EA;
+    box-shadow: 0px 20px 40px rgba(129, 209, 255, 0.2);
+    border-radius: 10px;
+}
+
+.texto-me-ajude3{
+    position: absolute;
+    width: 100%;
+    height: 22px;
+    left: 0px;
+    top: 17px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    text-decoration: none;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+/*Quarta tela*/
+
+/*titulo*/
+
+.quarta-tela{
+    position: absolute;
+    width: 100%;
+    height: 718px;
+    left: 0px;
+    top: 2277px;
+
+    background: #50B2EA;
+}
+
+.titulo-quarta-tela{
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    left: 605px;
+    top: 40px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.container-depoimentos{
+    position: absolute;
+    display: block;
+    width: 70%;
+    height: 470px;
+    left: 205px;
+    top: 200px;
+}
+
+.caixa1{
+    position: absolute;
+    width: 50%;
+    height: 233px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
+
+    box-shadow: 0px 20px 20px rgba(129, 209, 255, 0.2);
+    border-radius: 40px;
+}
+
+.caixa2{
+    position: absolute;
+    width: 50%;
+    height: 233px;
+    top: 0px;
+    left: 570px;
+
+    background: #FFFFFF;
+
+    box-shadow: 0px 20px 20px rgba(129, 209, 255, 0.2);
+    border-radius: 40px;
+}
+
+.caixa3{
+    position: absolute;
+    width: 50%;
+    height: 233px;
+    top: 240px;
+
+    background: #FFFFFF;
+
+    box-shadow: 0px 20px 20px rgba(129, 209, 255, 0.2);
+    border-radius: 40px;
+}
+
+.caixa4{
+    position: absolute;
+    width: 50%;
+    height: 233px;
+    top: 240px;
+    left: 570px;
+
+    background: #FFFFFF;
+
+    box-shadow: 0px 20px 20px rgba(129, 209, 255, 0.2);
+    border-radius: 40px;
+}
+
+/*imagem da menina*/
+
+.menina{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 10px;
+    top: 10px;
+}
+
+.nome-menina{
+    position: absolute;
+    width: 147px;
+    height: 22px;
+    left: 110px;
+    top: 15px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #50B2EA;
+}
+
+.paragrafo-menina{
+    position: absolute;
+    width: 80%;
+    height: 110px;
+    left: 100px;
+    top: 50px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+
+    color: #19435A;
+}
+
+.ultimas-estrelas{
+    position: absolute;
+    width: 100%;
+    top: 183px;
+    left: 98px;
+    display: flex;
+}
+
+.estrela{
+    width: 14.89px;
+    height: 14.22px;
+    padding-left: 8px;
+}
+
+
+/*ultima tela*/
+.quinta-tela{
+    position: absolute;
+    width: 100%;
+    height: 520px;
+    left: 0px;
+    top: 2995px;
+
+background: #FFFFFF;
+}
+
+.ultimo-titulo{
+    position: absolute;
+    width: 40%;
+    height: 20%;
+    left: 450px;
+    top: 0px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+
+    text-align: center;
+
+    color: #50B2EA;
+}
+
+.inputs{
+    position: absolute;
+    width: 29%;
+    height: 50%;
+    top: 140px;
+    left: 570px;
+}
+
+
+.caixa-texto1{
+    position: absolute;
+    width: 84%;
+    height: 64px;
+    left: 0px;
+    top: 0px;
+
+    background: #50B2EA;
+    opacity: 0.5;
+    border-radius: 40px;
+    border: none;
+}
+
+.caixa-texto2{
+    position: absolute;
+    width: 84%;
+    height: 64px;
+    left: 0px;
+    top: 80px;
+
+    background: #50B2EA;
+    opacity: 0.5;
+    border-radius: 40px;
+    border: none;
+}
+
+.caixa-texto3{
+    position: absolute;
+    width: 84%;
+    height: 64px;
+    left: 0px;
+    top: 160px;
+
+    background: #50B2EA;
+    opacity: 0.5;
+    border-radius: 40px;
+    border: none;
+}
+
+/*ultimo botao*/
+
+.ultimo-botao{
+    position: absolute;
+    width: 10%;
+    height: 64px;
+    left: 685px;
+    top: 400px;
+
+    background: #50B2EA;
+    border-radius: 40px;
+}
+
+.ultimo-texto-botao{
+    position: absolute;
+    width: 100%;
+    height: 23px;
+    top: 21px;
+    left: 0px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    text-decoration: none;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+/*footer*/
+
+footer{
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    left: 0px;
+    top: 3515px;
+
+    background: #19435A;
+}
